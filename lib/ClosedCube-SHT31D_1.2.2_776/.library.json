@@ -1,0 +1,46 @@
+{
+    "description": "Arduino library for Sensirion SHT3X-DIS Digital Temperature & Humidity Sensors", 
+    "repository": {
+        "url": "https://github.com/closedcube/ClosedCube_SHT31D_Arduino", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "atmelavr", 
+        "atmelsam", 
+        "espressif8266", 
+        "intel_arc32", 
+        "microchippic32", 
+        "nordicnrf51", 
+        "teensy", 
+        "timsp430"
+    ], 
+    "export": {
+        "exclude": [
+            "extras", 
+            "docs", 
+            "tests", 
+            "test", 
+            "*.doxyfile", 
+            "*.pdf"
+        ], 
+        "include": null
+    }, 
+    "authors": [
+        {
+            "maintainer": true, 
+            "name": "ClosedCube", 
+            "url": null, 
+            "email": "github@closedcube.com"
+        }
+    ], 
+    "keywords": [
+        "sensors"
+    ], 
+    "id": 776, 
+    "name": "ClosedCube SHT31D", 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "1.2.2", 
+    "homepage": null
+}
